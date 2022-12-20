@@ -92,7 +92,6 @@ with st.sidebar:
     st.date_input("Start date");
     st.date_input("End date");
     st.selectbox('Choose Algorithm', ('LSTM-RNN', 'GRU-RNN', 'Xgboost', 'Prophet'));
-    
     st.button('Submit');
     
 
