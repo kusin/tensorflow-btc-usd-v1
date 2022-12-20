@@ -47,11 +47,8 @@ with st.sidebar:
     st.selectbox('Choose Dataset', ('Bitcoin USD (BTC-USD)', 'Microsoft Corporation (MSFT)', 'Apple Inc. (AAPL)', 'Google Inc. (GOOG)', 'Amazon.com Inc. (AMZN)'));
     st.date_input("Start date");
     st.date_input("End date");
-<<<<<<< HEAD
     st.selectbox('Choose Algorithm', ('LSTM-RNN', 'GRU-RNN', 'Xgboost', 'Prophet'));    
-=======
     st.selectbox('Choose Algorithm', ('LSTM-RNN', 'GRU-RNN', 'Xgboost', 'Prophet'));
->>>>>>> 179f6a758c2ae80f76996b438392a410644b7cce
     st.button('Submit');
 
 # set a title dashboard
