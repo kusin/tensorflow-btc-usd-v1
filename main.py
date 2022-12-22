@@ -70,7 +70,7 @@ st.subheader("Data Visualization Open-High-Low-Close (OHLC)");
 st.plotly_chart(px.line(dataset, x=dataset.index, y=["Close", "Open", "High", "Low"], color_discrete_sequence=["blue", "green", "orange", "red"]), use_container_width=True);
 
 # set two columns
-fig1, fig2 = st.columns(2, gap="small");
+fig1, fig2 = st.columns(2, gap="large");
 with fig1:
     st.text("Open price visualization");
     st.plotly_chart(px.line(dataset, x=dataset.index, y='Open', color_discrete_sequence=["blue"]), use_container_width=True);
@@ -79,7 +79,7 @@ with fig2:
     st.plotly_chart(px.line(dataset, x=dataset.index, y='Close', color_discrete_sequence=["green"]), use_container_width=True);
 
 # set two columns
-fig1, fig2 = st.columns(2, gap="small");
+fig1, fig2 = st.columns(2, gap="large");
 with fig1:
     st.text("High price visualization");
     st.plotly_chart(px.line(dataset, x=dataset.index, y='High', color_discrete_sequence=["orange"]), use_container_width=True);
@@ -99,13 +99,13 @@ with t2015:
     date_end = "2015-12-31";
     df_eda = set_year(dataset, date_start, date_end);
 
-    c1, c2 = st.columns(2, gap="small");
+    c1, c2 = st.columns(2, gap="large");
     with c1:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["Close"], color_discrete_sequence=["#0051ee"], text_auto='.2s'));
     with c2:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["Open"], color_discrete_sequence=["#20B2AA"], text_auto='.2s'));
 
-    c1, c2 = st.columns(2, gap="small");
+    c1, c2 = st.columns(2, gap="large");
     with c1:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["High"], color_discrete_sequence=["#FF8C00"], text_auto='.2s'));
     with c2:
@@ -117,13 +117,13 @@ with t2016:
     date_end = "2016-12-31";
     df_eda = set_year(dataset, date_start, date_end);
 
-    c1, c2 = st.columns(2, gap="small");
+    c1, c2 = st.columns(2, gap="large");
     with c1:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["Close"], color_discrete_sequence=["#0051ee"], text_auto='.2s'));
     with c2:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["Open"], color_discrete_sequence=["#20B2AA"], text_auto='.2s'));
 
-    c1, c2 = st.columns(2, gap="small");
+    c1, c2 = st.columns(2, gap="large");
     with c1:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["High"], color_discrete_sequence=["#FF8C00"], text_auto='.2s'));
     with c2:
@@ -135,13 +135,13 @@ with t2017:
     date_end = "2017-12-31";
     df_eda = set_year(dataset, date_start, date_end);
 
-    c1, c2 = st.columns(2, gap="small");
+    c1, c2 = st.columns(2, gap="large");
     with c1:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["Close"], color_discrete_sequence=["#0051ee"], text_auto='.2s'));
     with c2:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["Open"], color_discrete_sequence=["#20B2AA"], text_auto='.2s'));
 
-    c1, c2 = st.columns(2, gap="small");
+    c1, c2 = st.columns(2, gap="large");
     with c1:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["High"], color_discrete_sequence=["#FF8C00"], text_auto='.2s'));
     with c2:
@@ -153,13 +153,13 @@ with t2018:
     date_end = "2018-12-31";
     df_eda = set_year(dataset, date_start, date_end);
 
-    c1, c2 = st.columns(2, gap="small");
+    c1, c2 = st.columns(2, gap="large");
     with c1:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["Close"], color_discrete_sequence=["#0051ee"], text_auto='.2s'));
     with c2:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["Open"], color_discrete_sequence=["#20B2AA"], text_auto='.2s'));
 
-    c1, c2 = st.columns(2, gap="small");
+    c1, c2 = st.columns(2, gap="large");
     with c1:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["High"], color_discrete_sequence=["#FF8C00"], text_auto='.2s'));
     with c2:
@@ -171,13 +171,13 @@ with t2019:
     date_end = "2019-12-31";
     df_eda = set_year(dataset, date_start, date_end);
 
-    c1, c2 = st.columns(2, gap="small");
+    c1, c2 = st.columns(2, gap="large");
     with c1:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["Close"], color_discrete_sequence=["#0051ee"], text_auto='.2s'));
     with c2:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["Open"], color_discrete_sequence=["#20B2AA"], text_auto='.2s'));
 
-    c1, c2 = st.columns(2, gap="small");
+    c1, c2 = st.columns(2, gap="large");
     with c1:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["High"], color_discrete_sequence=["#FF8C00"], text_auto='.2s'));
     with c2:
@@ -189,13 +189,13 @@ with t2020:
     date_end = "2020-12-31";
     df_eda = set_year(dataset, date_start, date_end);
 
-    c1, c2 = st.columns(2, gap="small");
+    c1, c2 = st.columns(2, gap="large");
     with c1:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["Close"], color_discrete_sequence=["#0051ee"], text_auto='.2s'));
     with c2:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["Open"], color_discrete_sequence=["#20B2AA"], text_auto='.2s'));
 
-    c1, c2 = st.columns(2, gap="small");
+    c1, c2 = st.columns(2, gap="large");
     with c1:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["High"], color_discrete_sequence=["#FF8C00"], text_auto='.2s'));
     with c2:
@@ -207,13 +207,13 @@ with t2021:
     date_end = "2021-12-31";
     df_eda = set_year(dataset, date_start, date_end);
 
-    c1, c2 = st.columns(2, gap="small");
+    c1, c2 = st.columns(2, gap="large");
     with c1:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["Close"], color_discrete_sequence=["#0051ee"], text_auto='.2s'));
     with c2:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["Open"], color_discrete_sequence=["#20B2AA"], text_auto='.2s'));
 
-    c1, c2 = st.columns(2, gap="small");
+    c1, c2 = st.columns(2, gap="large");
     with c1:
         st.plotly_chart(px.bar(df_eda, x=df_eda.index, y=df_eda["High"], color_discrete_sequence=["#FF8C00"], text_auto='.2s'));
     with c2:
