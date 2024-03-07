@@ -1,0 +1,11 @@
+Masalah Penelitian
+1. Tidak Ada
+
+Rumusan masalah
+1. Tidak Ada
+
+Pertanyaan penelitian.
+1. Bagaimana membuat model prediksi menggunakan konsep neural network ?
+2. Kenapa metode prediksi menggunakan LSTM-RNN dan GRU-RNN ?
+3. Apakah terdapat perbedaan antara LSTM-RNN dan GRU-RNN dari sisi r, rmse, mape, kompleksitas waktu, ruang ?
+4. Apakah menambahkan konsep stacked dan biderectional dapat menurutkan eror ?
