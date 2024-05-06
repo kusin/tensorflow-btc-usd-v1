@@ -1,1 +1,1 @@
-## Prediction of BTC-USD price using algorithms SB-LSTM-RNN and SB-GRU-RNN
+## Prediction of BTC-USD using algorithms SB-LSTM-RNN and SB-GRU-RNN
