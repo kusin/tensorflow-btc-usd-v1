@@ -23,4 +23,4 @@
 - Keras 2.14.0
 - Tensorflow 2.14.0
 
-![image](./img/hasil_prediksi_full _SB_GRU_RNN.png)
+![image](/img/hasil_prediksi_full _SB_GRU_RNN.png)
