@@ -1,4 +1,5 @@
 ## Prediction of BTC-USD using algorithms SB-LSTM-RNN and SB-GRU-RNN
+![image info](/img/hasil_prediksi_full _SB_GRU_RNN.png)
 
 ### Hardware Testing
 - HP Probook 440 G6
@@ -22,5 +23,3 @@
 - Scikit-Learn 1.2.2
 - Keras 2.14.0
 - Tensorflow 2.14.0
-
-![image info](/img/hasil_prediksi_full _SB_GRU_RNN.png)
