@@ -23,4 +23,4 @@
 - Keras 2.14.0
 - Tensorflow 2.14.0
 
-![Image Alt text](/images/img.jpg "Optional title"))
+![Image Alt text](img/hasil prediksi full - SB-LSTM-RNN.png "Optional title"))
