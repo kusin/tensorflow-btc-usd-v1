@@ -1,1 +1,1 @@
-## Comparison LSTM and GRU use architecture stacked and bidirectional
+## Prediction of BTC-USD price using algorithms SB-LSTM-RNN and SB-GRU-RNN
